@@ -9,3 +9,9 @@ Invoke as:
 ```
 $ ./json_viewer.py sample.json
 ```
+
+or
+
+```
+$ python json_viewer.py sample.json
+```
