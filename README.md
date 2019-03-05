@@ -7,11 +7,26 @@ Python3 script to view a JSON file as a tree in GUI.
 Invoke as:
 
 ```
-$ ./json_viewer.py sample.json
+$ ./json_viewer sample.json
 ```
 
-or
+Install using pip with:
 
 ```
-$ python json_viewer.py sample.json
+$ pip install json_viewer
 ```
+
+Sample usage
+
+```
+$ python json_viewer sample.json
+$ json_viewer sample.json
+```
+
+Or you can also read from stdin
+
+```
+$ cat sample.json | python json_viewer
+$ cat sample.json | json_viewer
+```
+
