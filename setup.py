@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
     setuptools.setup(
         name='json_viewer',
-        version='0.1.2',
+        version='0.1.3',
         scripts=['json_viewer'],
         author="arfan",
         author_email="abdul.arfan@gmail.com",
@@ -14,6 +14,10 @@ with open("README.md", "r") as fh:
         long_description_content_type="text/markdown",
         url="https://github.com/arfan/json-viewer",
         packages=setuptools.find_packages(),
+        install_requires=[
+            'PyQt5',
+            'PyQt5-sip'
+        ],
         classifiers=[
             "Programming Language :: Python :: 3",
             "License :: OSI Approved :: Apache Software License",
