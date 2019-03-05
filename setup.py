@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
     setuptools.setup(
         name='json_viewer',
-        version='0.1',
+        version='0.1.1',
         scripts=['json_viewer'],
         author="arfan",
         author_email="abdul.arfan@gmail.com",
