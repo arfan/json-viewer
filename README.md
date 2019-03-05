@@ -1,5 +1,8 @@
 # JSON Viewer
 
+This is a fork from https://github.com/ashwin/json-viewer
+I add capabilities to read from standard input and also create the pip installer.
+
 ![JSON Viewer](./json_viewer.png)
 
 Python3 script to view a JSON file as a tree in GUI.
