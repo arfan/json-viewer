@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 __author__ = "Ashwin Nanjappa"
 
 # GUI viewer to view JSON data as tree.
@@ -170,7 +168,3 @@ def main():
     qt_app = QtWidgets.QApplication(sys.argv)
     json_viewer = JsonViewer()
     sys.exit(qt_app.exec_())
-
-
-if "__main__" == __name__:
-    main()
